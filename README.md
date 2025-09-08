@@ -4,7 +4,11 @@ Olá! 👋 Bem-vindo ao meu currículo digital.
 
 ## Sobre Mim
 
-Sou **Jhonata Sousa**, um profissional de Engenharia de Software e Redes baseado em Uberlândia, Minas Gerais. Atualmente estou finalizando minha graduação em Engenharia de Software (conclusão prevista para agosto de 2025) e atuo como Coordenador de NOC na Audicom Telecom.
+Bacharel em Engenharia Civil e Ambiental. Atualmente, cursando o último período de Engenharia de Software, com previsão de conclusão em agosto de 2025. Profissional com experiência em redes, suporte técnico e coordenação de equipes, com interesse em mudar de área dentro da Tecnologia da Informação.
+
+Estou em constante atualização por meio de estudos, com foco em desenvolvimento de sistemas e análise de dados. Tenho buscado aprofundamento prático e teórico em ferramentas como Python, SQL e Power BI, entre outras voltadas à resolução de problemas, interpretação de dados e automação de processos.
+
+De perfil introvertido, sou observador, analítico e focado, características que me ajudam a identificar detalhes importantes e encontrar soluções eficientes. Proativo e com forte raciocínio lógico, destaco-me pela capacidade de aprender rapidamente e contribuir de forma eficiente em ambientes colaborativos. Busco uma oportunidade que me permita aplicar e desenvolver essas competências em novos desafios.
 
 ## 🎓 Formação Acadêmica
 

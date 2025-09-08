@@ -3,13 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Currículo profissional de Jhonata Sousa - Engenheiro de Software e Especialista em Redes">
   <title>Currículo — Jhonata Sousa</title>
   <link rel="stylesheet" href="assets/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
 <body>
+  <div class="progress-container">
+    <div class="progress-bar"></div>
+  </div>
+  
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">
+    <i class="fas fa-sun"></i>
+  </button>
+
   <div class="container">
-    <div class="neon-canvas" aria-hidden="true"></div>
     <header class="header">
       <div class="identity">
         <div class="avatar" aria-hidden="true">JS</div>
@@ -17,18 +26,20 @@
           <h1><span class="neon">Jhonata Sousa</span></h1>
           <p class="role">Engenharia de Software | Redes</p>
           <p class="location">Uberlândia, Minas Gerais, Brasil</p>
+          <div class="contact">
+            <a href="mailto:jhonata.s@live.com">jhonata.s@live.com</a>
+            <a href="https://www.linkedin.com/in/sousajhonata" target="_blank" rel="noopener">linkedin.com/in/sousajhonata</a>
+          </div>
         </div>
-      </div>
-      <div class="contact">
-        <a href="mailto:jhonata.s@live.com">jhonata.s@live.com</a>
-        <a href="https://www.linkedin.com/in/sousajhonata" target="_blank" rel="noopener">linkedin.com/in/sousajhonata</a>
       </div>
     </header>
 
     <main>
       <section class="card summary">
         <h2>Resumo</h2>
-        <p>Bacharel em Engenharia Civil e Ambiental. Atualmente cursando o último período de Engenharia de Software (conclusão prevista: agosto de 2025). Experiência em redes, suporte técnico e coordenação de equipes; transição para desenvolvimento de sistemas e análise de dados com foco em Python, SQL e Power BI. Perfil observador, analítico, proativo e com forte raciocínio lógico, capaz de aprender rapidamente e contribuir em equipes colaborativas.</p>
+        <p>Bacharel em Engenharia Civil e Ambiental. Atualmente, cursando o último período de Engenharia de Software, com previsão de conclusão em agosto de 2025. Profissional com experiência em redes, suporte técnico e coordenação de equipes, com interesse em mudar de área dentro da Tecnologia da Informação.</p>
+        <p>Estou em constante atualização por meio de estudos, com foco em desenvolvimento de sistemas e análise de dados. Tenho buscado aprofundamento prático e teórico em ferramentas como Python, SQL e Power BI, entre outras voltadas à resolução de problemas, interpretação de dados e automação de processos.</p>
+        <p>De perfil introvertido, sou observador, analítico e focado, características que me ajudam a identificar detalhes importantes e encontrar soluções eficientes. Proativo e com forte raciocínio lógico, destaco-me pela capacidade de aprender rapidamente e contribuir de forma eficiente em ambientes colaborativos. Busco uma oportunidade que me permita aplicar e desenvolver essas competências em novos desafios.</p>
       </section>
 
       <section class="card skills">
@@ -108,8 +119,18 @@
     </main>
 
     <footer class="footer">
-      <p>Currículo gerado: Jhonata Sousa • Para abrir, visualize <strong>resume.html</strong> no navegador.</p>
+      <div class="social-links">
+        <a href="https://github.com/sjhonata" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sousajhonata" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p>© 2025 Jhonata Sousa • Desenvolvido com <i class="fas fa-heart"></i></p>
     </footer>
   </div>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,8 @@
+.summary p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.summary p:last-child {
+  margin-bottom: 0;
+}
