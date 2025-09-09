@@ -45,31 +45,31 @@
       <section class="card certificates-grid">
         <h2>Certificações</h2>
         <div class="certificates-container">
-          <a href="https://www.udemy.com/certificate/UC-24a43613-2b7c-45c0-a8f0-fb1e48df0bca/" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Power-BI.pdf')" class="certificate-item">
             <i class="fas fa-award"></i>
             <span>Power BI</span>
           </a>
-          <a href="https://ead.datacom.com.br/mod/simplecertificate/view.php?id=370&tab=0&page=0&perpage=30&orderby=username&action=get" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Switches-DmOS.pdf')" class="certificate-item">
             <i class="fas fa-network-wired"></i>
             <span>Switches DmOS</span>
           </a>
-          <a href="https://www.udemy.com/certificate/UC-a1ed1223-33f5-4ea0-b23c-acb87829242d/" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Algoritmo.pdf')" class="certificate-item">
             <i class="fas fa-code"></i>
             <span>Algoritmos</span>
           </a>
-          <a href="https://www.udemy.com/certificate/UC-a6f7b2c9-6097-410c-bcb9-1f4f6912cb8c/" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Azure-Fundamental.pdf')" class="certificate-item">
             <i class="fab fa-microsoft"></i>
             <span>Azure Fundamentals</span>
           </a>
-          <a href="https://www.udemy.com/certificate/UC-510bdc1a-abf9-4db2-8543-9592f39a59b8/" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Arquitetura-Redes.pdf')" class="certificate-item">
             <i class="fas fa-server"></i>
             <span>Arquitetura de Redes</span>
           </a>
-          <a href="https://www.udemy.com/certificate/UC-8f59ec39-be82-4e2d-9b92-2de539eefcb1/" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Excel.pdf')" class="certificate-item">
             <i class="fas fa-table"></i>
             <span>Excel Completo</span>
           </a>
-          <a href="https://www.udemy.com/certificate/UC-45b0fe1c-3b39-4db0-b47e-a5c8891f4f27/" class="certificate-item" target="_blank" rel="noopener">
+          <a href="javascript:void(0)" onclick="openPdfModal('assets/certificates/Java-Basico.pdf')" class="certificate-item">
             <i class="fab fa-java"></i>
             <span>Java Básico</span>
           </a>
@@ -81,22 +81,23 @@
 
         <article class="job">
           <h3>Audicom | Telecom</h3>
-          <p class="meta">julho de 2023 — Presente · Uberlândia, MG</p>
-          <p><strong>Coordenador de NOC</strong> (dezembro de 2024 — Presente)<br>
+          <p class="meta">Julho de 2023 — Presente · Uberlândia, MG</p>
+          <p><strong>Coordenador de NOC</strong> (Dezembro de 2024 — Presente)<br>
           Responsável pela supervisão e coordenação da equipe de analistas de Help Desk, fornecendo suporte técnico especializado aos clientes através de diagnóstico remoto e orientações de conectividade. Gerencio a ativação e configuração de planos de banda larga, incluindo testes e configuração de ONTs e roteadores. Realizo monitoramento proativo utilizando ferramentas como Zabbix, Grafana, SmokePing e phpipam. Atuo no planejamento de viabilidade de enlaces de rádio frequência e na gestão de projetos operacionais, além de conduzir treinamentos para desenvolvimento das equipes.</p>
-          <p><strong>Analista de rede</strong> (julho de 2023 — dezembro de 2024)<br>
+          <br>
+          <p><strong>Analista de rede</strong> (Julho de 2023 — Dezembro de 2024)<br>
           Atuei como coordenador de HelpDesk fornecendo suporte técnico ao cliente. Responsável pela ativação de planos, configuração de equipamentos e realização de visitas técnicas quando necessário. Participei ativamente de projetos de viabilidade de rádio frequência e realizei ajustes no backbone da rede.</p>
         </article>
 
         <article class="job">
           <h3>Operador de dados — WKVE Telecom</h3>
-          <p class="meta">março de 2022 — dezembro de 2022 · Governador Valadares, MG</p>
+          <p class="meta">Março de 2022 — Dezembro de 2022 · Governador Valadares, MG</p>
           <p>Responsável pela ativação de planos de banda larga, realizando testes e configuração de ONUs, além de análises de viabilidade de RF para garantir a qualidade do serviço prestado aos clientes.</p>
         </article>
 
         <article class="job">
           <h3>Assistente administrativo — IBI TELECOM</h3>
-          <p class="meta">março de 2020 — agosto de 2021 · Governador Valadares, MG</p>
+          <p class="meta">Março de 2020 — Agosto de 2021 · Governador Valadares, MG</p>
           <p>Responsável pelo planejamento e acompanhamento do serviço dos técnicos de campo, gestão do controle de estoque, gerenciamento de ordens de serviço e agendamento de manutenções preventivas e corretivas.</p>
         </article>
       </section>
@@ -122,6 +123,16 @@
       </div>
       <p>© 2025 Jhonata Sousa • Desenvolvido com <i class="fas fa-heart"></i></p>
     </footer>
+  </div>
+
+  <!-- Modal para visualização de PDF -->
+  <div id="pdfModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <div class="pdf-container">
+        <iframe id="pdfViewer" width="100%" height="100%" frameborder="0"></iframe>
+      </div>
+    </div>
   </div>
 
   <script src="assets/js/main.js"></script>
