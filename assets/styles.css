@@ -107,6 +107,7 @@ body {
 
 .contact {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -121,6 +122,11 @@ body {
 
 .contact a:hover {
   transform: translateY(-2px);
+}
+
+.cv-download {
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 .download-cv-button {
