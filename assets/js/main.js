@@ -41,3 +41,11 @@ window.addEventListener('click', (event) => {
         pdfViewer.src = '';
     }
 });
+
+// Atualização dinâmica do ano no rodapé
+document.addEventListener('DOMContentLoaded', (event) => {
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+});
