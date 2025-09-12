@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Jhonata da Silva Sousa</title>
+    <!-- Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo base para a página */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Oculta a barra de rolagem para um visual mais limpo na impressão */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                background-color: white;
+            }
+            .no-print {
+                display: none;
+            }
+            .container > div {
+                box-shadow: none !important;
+                border-radius: 0 !important;
+                padding: 0 !important;
+            }
+            .container {
+                padding: 0 !important;
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Container principal do currículo -->
+    <div class="container mx-auto p-4 sm:p-8 max-w-4xl">
+        <div class="">
+
+            <!-- Cabeçalho com informações pessoais -->
+            <header class="text-center mb-10 border-b pb-8">
+                <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">Jhonata da Silva Sousa</h1>
+                <p class="text-xl text-blue-600 font-medium mt-2">Engenharia de Software | Redes | NOC | Análise de Dados</p>
+                
+                <!-- Contatos -->
+                <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6 text-sm text-gray-600">
+                    <a href="mailto:eng.jhonatasousa@gmail.com" class="hover:text-blue-600 transition-colors duration-300">
+                        <i class="fas fa-envelope mr-1"></i> eng.jhonatasousa@gmail.com
+                    </a>
+                    <a href="https://wa.me/5533991361007" target="_blank" class="hover:text-blue-600 transition-colors duration-300">
+                        <i class="fab fa-whatsapp mr-1"></i> (33) 9-9136-1007
+                    </a>
+                     <span class="text-gray-500">
+                        <i class="fas fa-map-marker-alt mr-1"></i> Uberlândia, MG
+                    </span>
+                </div>
+                 <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-4 text-sm text-gray-600">
+                    <a href="https://jhonatasousa.site/" target="_blank" class="hover:text-blue-600 transition-colors duration-300">
+                        <i class="fas fa-globe mr-1"></i> jhonatasousa.site
+                    </a>
+                    <a href="https://www.linkedin.com/in/sousajhonata" target="_blank" class="hover:text-blue-600 transition-colors duration-300">
+                        <i class="fab fa-linkedin mr-1"></i> sousajhonata
+                    </a>
+                    <a href="https://github.com/sjhonata" target="_blank" class="hover:text-blue-600 transition-colors duration-300">
+                        <i class="fab fa-github mr-1"></i> sjhonata
+                    </a>
+                </div>
+            </header>
+
+            <main>
+                <!-- Seção de Objetivo Profissional -->
+                <section class="mb-10">
+                    <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-4">Objetivo Profissional</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Busco uma oportunidade desafiadora em desenvolvimento de sistemas ou análise de dados, onde possa aplicar minha sólida base em raciocínio lógico, proatividade e capacidade de aprendizado rápido. Com experiência prévia em TI, atuando em redes, suporte e coordenação, estou em constante aperfeiçoamento em programação, análise de dados e automação de processos para criar soluções eficientes, interpretar informações e otimizar fluxos, visando gerar insights estratégicos e impulsionar o sucesso do negócio.
+                    </p>
+                </section>
+
+                <!-- Seção de Experiência Profissional -->
+                <section class="mb-10">
+                    <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-6">Experiência Profissional</h2>
+                    <div class="space-y-8">
+                        <!-- Vaga 1 -->
+                        <div class="flex flex-col sm:flex-row">
+                            <div class="sm:w-1/3 text-gray-600 mb-2 sm:mb-0">
+                                <p class="font-semibold">2023 - Atualmente</p>
+                                <p>Uberlândia, MG</p>
+                            </div>
+                            <div class="sm:w-2/3">
+                                <h3 class="text-xl font-semibold">Coordenador de NOC</h3>
+                                <p class="text-md font-medium text-gray-700 mb-2">Audicom Tecnologia e Telecom LTDA</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                                    <li>Supervisão e coordenação da equipe de analistas de Help Desk.</li>
+                                    <li>Análise e planejamento de viabilidade de enlaces de rádio frequência.</li>
+                                    <li>Ativação e configuração de planos de banda larga.</li>
+                                    <li>Realização e configuração de redirecionamento de portas em roteadores e firewalls de clientes.</li>
+                                    <li>Suporte técnico especializado, diagnóstico remoto e resolução de problemas de conectividade.</li>
+                                    <li>Monitoramento proativo da rede com Zabbix, The Dude, Grafana, SmokePing e phpipam.</li>
+                                    <li>Familiaridade com equipamentos MikroTik, Cisco, Datacom, ONTs e roteadores.</li>
+                                    <li>Gestão de projetos, treinamento de equipes e controle de atividades de campo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Vaga 2 -->
+                        <div class="flex flex-col sm:flex-row">
+                            <div class="sm:w-1/3 text-gray-600 mb-2 sm:mb-0">
+                                <p class="font-semibold">2022</p>
+                                <p>Governador Valadares, MG</p>
+                            </div>
+                            <div class="sm:w-2/3">
+                                <h3 class="text-xl font-semibold">Operador de Dados</h3>
+                                <p class="text-md font-medium text-gray-700 mb-2">WKVE-Assess. em Serv. de Inf. e Telecomunicações</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                                    <li>Provisionamento e ativação de planos de banda larga e dados.</li>
+                                    <li>Testes e configuração de ONUs, garantindo conectividade e sinal óptico.</li>
+                                    <li>Análise e elaboração de estudos de viabilidade técnica para enlaces de rádio.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Vaga 3 -->
+                        <div class="flex flex-col sm:flex-row">
+                            <div class="sm:w-1/3 text-gray-600 mb-2 sm:mb-0">
+                                <p class="font-semibold">2020 - 2021</p>
+                                <p>Governador Valadares, MG</p>
+                            </div>
+                            <div class="sm:w-2/3">
+                                <h3 class="text-xl font-semibold">Assistente Administrativo</h3>
+                                <p class="text-md font-medium text-gray-700 mb-2">Ibi Telecom - Setor Viabilidade</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                                    <li>Planejamento e acompanhamento de atividades da equipe técnica de campo.</li>
+                                    <li>Controle de estoque técnico e gestão de ordens de serviço.</li>
+                                    <li>Análise de viabilidade para implantação de redes de fibra óptica.</li>
+                                    <li>Agendamento e acompanhamento de manutenções preventivas e corretivas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+               <!-- Seção de Formação Acadêmica -->
+                <section>
+                    <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-6">Formação Acadêmica</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-semibold">Bacharel em Engenharia de Software</p>
+                            <p class="text-gray-600">Universidade Cesumar - UniCesumar (2022 - 2025)</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Pós-graduação em Segurança do Trabalho e Gestão Ambiental</p>
+                            <p class="text-gray-600">Faculdade Venda Nova do Imigrante - FAVENI (2018 - 2019)</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Bacharel em Engenharia Civil e Ambiental</p>
+                            <p class="text-gray-600">Universidade Vale do Rio Doce - UNIVALE (2012 - 2016)</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+    </div>
+
+</body>
+</html>
